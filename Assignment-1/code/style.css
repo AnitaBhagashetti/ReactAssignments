@@ -1,1 +1,134 @@
+#root,body,html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: calc(100% - 60px);
+    width: calc(100% - 60px);
+    padding: 30px;
+    /* width: 100%;
+    height: 100%; */
 
+}
+
+.Yellow{
+    
+    
+    height:calc(33.33% - 10px);
+    margin-bottom: 15px;
+    /* height: 33%; */
+}
+
+
+
+  
+.Yellow1{
+    /* width: 48%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
+    background-color: yellow;
+    display: inline-block; */
+
+    background-color: yellow;
+    display: inline-block;
+    height: 100%;
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    /* width: 50%; */
+
+    
+}
+.Yellow2{
+    /* width: 48%;
+    height: 100%;
+    margin: 10px 10px 10px 10px;
+    background-color: yellow;
+    display: inline-block; */
+    background-color: yellow;
+    display: inline-block;
+    height: 100%;
+    width: calc(50% - 10px);
+    /* width: 50%; */
+}
+.Red{
+    /* width: 97%;
+    background-color: red;
+    height: 33%;
+    margin: 20px 20px 20px 10px; */
+    
+    height:calc(33.33% - 10px);
+    margin-bottom: 15px;
+    background-color: red;
+    /* height: 33%; */
+
+}
+.Blue{   
+    /* width: 100%;
+    
+    height: 30% */
+    height:calc(33.33% - 10px);
+    /* height: 33%; */
+}
+
+.Blue1{
+    /* width: 32%;
+    height: 100%;
+    margin: 0 10px 20px 10px;
+    background-color:blue;
+     */
+    display: inline-block;
+    width: calc(33% - 5px);
+    height: 100%;
+    margin-right: 10px;
+    background-color:blue;
+
+
+    
+}
+.Blue2{
+    /* width: 32%;
+    height: 100%;
+    margin: 0 10px 20px 10px;
+    background-color:blue;
+    display: inline-block; */
+    display: inline-block;
+    width: calc(33% - 5px);
+    height: 100%;
+    margin-right: 10px;
+    background-color:blue;
+}
+.Blue3{
+    /* width: 32%;
+    height: 100%;
+    margin: 0 10px 20px 10px;
+   
+    display: inline-block; */
+    display: inline-block;
+    width: calc(33% - 5px);
+    height: 100%;
+    background-color:blue;
+   
+}
+
+@media screen and (max-width:768px){
+    .Blue3{
+        display: none;
+    }
+     .Blue1,.Blue2{
+         display: block;
+         width: 100%;
+         margin: 0;
+         margin-top: 10px;
+     }
+
+    
+}
+@media screen and (max-width:320px){
+    .Yellow1,.Yellow2{
+        display: block;
+        width: 100%;
+        height: calc(50% - 5px);
+        margin-bottom: 10px;
+    }
+
+}
