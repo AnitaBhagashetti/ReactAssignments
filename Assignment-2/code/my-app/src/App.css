@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 40px;
+ 
+}
+.info{
+  position: relative;
+    right: -13px;
+  
+  }
+.main img{
+  width: 272px;
+    height: 259px;
+    margin: 10px;
+}
+.name{
+  color: aqua;
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0;
+    position: relative;
+    
+}
+p.heads {
+  font-size: 12px;
+  font-weight: lighter;
+}
+p.details {
+  font-size: 20px;
+  
+}
+.border {
+  border: 4px solid black;
+}
