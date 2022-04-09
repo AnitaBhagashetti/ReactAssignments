@@ -1,0 +1,102 @@
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+
+.site-container {
+    width: 50vw;
+    height: 100%;
+}
+.HeaderWrapper {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.000001px solid black;
+    background-color: #eee;
+}
+.arrow {
+    position: relative;
+    left: -130px;
+    margin-top: 48px;
+}
+.Details {
+    margin-top: 16px;
+    position: relative;
+    /* left: -43px; */
+}
+button {
+    background-color: black;
+    color: white;
+    margin-top: 55px;
+    margin-left: 106px;
+}
+.Content {
+    width: 100%;
+    height: 75%;
+}
+.Info p {
+    display: inline-block;
+    margin-left: 11px;
+}
+.Customer_Info {
+    width: 100%;
+    height: 33%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.Order_Info {
+    width: 100%;
+    height: 32%;
+    border: 1px solid black;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+.OrderInfo1 {
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.blackhole {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+/* .Order_Info1:first-child p:last-child{
+    display: inline-block;
+} */
+
+p.status {
+    display: inline-block;
+    margin-left: 4px;
+}
+.Product_List {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+input[type="checkbox"] {
+    position: relative;
+    top: 61px;
+    right: -9px;
+}
+img {
+    width: 168px;
+    height: 157px;
+    margin-top: 2px;
+}
+.ProfileInfo {
+  
+    position: relative;
+    left: -24px;
+}
+.ForwardArrow {
+    
+    margin-top: 58px;
+    margin-right: 16px;
+}
