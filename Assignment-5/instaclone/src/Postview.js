@@ -31,13 +31,17 @@ useEffect(()=>{
         <div className="site-container">
       {
         page.map((data,index)=>(
+          
          <Post data={data} key={index} />
         
       
          
         ))
-      }
+        }
       </div>
+
+
+      
       
   </div> 
   )
